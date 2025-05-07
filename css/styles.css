@@ -93,9 +93,8 @@ footer {
     font-family: montserrat;
 }
 .contacto {
-
     margin-bottom: 3.125rem;
-    padding: 100px;
+    padding-top: 100px;
 }
 .contacto .form-wrapper {
     display: flex;
