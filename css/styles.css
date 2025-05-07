@@ -31,7 +31,6 @@ body{
     gap: 2rem;
     max-width: 62.5rem;
     margin: auto;
-    padding: 60px;
 }
 .grid-item {
     display: grid;
