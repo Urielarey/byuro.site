@@ -187,6 +187,25 @@ footer {
     padding-top: 0.625rem;
     text-align: center;
 }
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: center;
+    padding-bottom: 3.75rem;
+}
+.redes img{
+    padding-top: 1.25rem;
+    width: 6.25rem;
+    height: auto;
+}
+.redes a{
+    transition: transform 10s ease;
+}
+.redes a :hover{
+    transform: scale(1.1);
+}
 @media (max-width: 48rem) {
     .grid-item {
     grid-template-columns: 1fr;
@@ -221,11 +240,5 @@ footer {
     }
     .text p {
     font-size: 0.95rem;
-    }
-    .footer-images {
-        display: flex;
-        justify-content: center;
-        gap: 1.25rem;
-        align-items: center;
     }
 }
