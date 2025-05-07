@@ -25,12 +25,16 @@ body{
 .u-carrousel{
     padding-top: 50px;
 }
-.grid-container {
+.grid-container1 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     max-width: 62.5rem;
     margin: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
 }
 .grid-item {
     display: grid;
@@ -66,14 +70,22 @@ footer {
     text-align: center;
     font-family: montserrat3;
 }
-.grid-container ul {
+.grid-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 62.5rem;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.grid-container2 ul {
     list-style: none;
     padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 1.875rem;
     padding-bottom: 40px;
 }
-.grid-container li {
+.grid-container2 li {
     display: grid;
     grid-template-rows: auto auto;
     gap: .3125rem;
@@ -81,15 +93,15 @@ footer {
     font-family: montserrat3;
     padding: 20px;
 }
-.grid-container li strong {
+.grid-container2 li strong {
     font-size: 1.2rem;
     font-weight: bold;
     color: #191716;
-    font-family: montserrat2;
+    font-family: montserrat2; 
 }
 .h2{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
     font-family: montserrat;
 }
 .contacto {
