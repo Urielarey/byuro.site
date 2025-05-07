@@ -70,6 +70,23 @@ footer {
     text-align: center;
     font-family: montserrat3;
 }
+.footer-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: center;
+}
+.footer-images img {
+    padding-top: 1.25rem;
+    width: 3.125rem;
+    height: auto;
+}
+.footer-images a{
+    transition: transform 2s ease;
+}
+.footer-images a :hover{
+    transform: scale(1.1);
+}
 .grid-container2 {
     display: flex;
     flex-direction: column;
@@ -101,7 +118,7 @@ footer {
 }
 .h2{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 120px;
     font-family: montserrat;
 }
 .contacto {
@@ -178,5 +195,11 @@ footer {
     }
     .text p {
     font-size: 0.95rem;
+    }
+    .footer-images {
+        display: flex;
+        justify-content: center;
+        gap: 1.25rem;
+        align-items: center;
     }
 }
