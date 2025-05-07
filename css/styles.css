@@ -23,7 +23,7 @@ body{
     font-family: montserrat;
 }
 .u-carrousel{
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 .grid-container1 {
     display: flex;
@@ -31,10 +31,10 @@ body{
     gap: 2rem;
     max-width: 62.5rem;
     margin: auto;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-bottom: 6.25rem;
 }
 .grid-item {
     display: grid;
@@ -93,14 +93,14 @@ footer {
     gap: 2rem;
     max-width: 62.5rem;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 .grid-container2 ul {
     list-style: none;
     padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 1.875rem;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 .grid-container2 li {
     display: grid;
@@ -108,7 +108,7 @@ footer {
     gap: .3125rem;
     margin-bottom: .9375rem;
     font-family: montserrat3;
-    padding: 20px;
+    padding: 1.25rem;
 }
 .grid-container2 li strong {
     font-size: 1.2rem;
@@ -118,12 +118,17 @@ footer {
 }
 .h2{
     text-align: center;
-    padding-top: 120px;
+    padding-top: 7.5rem;
+    font-family: montserrat;
+}
+.h2Contacto{
+    text-align: center;
+    padding-top: 1.875rem;
     font-family: montserrat;
 }
 .contacto {
     margin-bottom: 3.125rem;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .contacto .form-wrapper {
     display: flex;
@@ -182,7 +187,7 @@ footer {
     padding-top: 0.625rem;
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .grid-item {
     grid-template-columns: 1fr;
     text-align: center;
