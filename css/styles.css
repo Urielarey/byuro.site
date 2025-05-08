@@ -206,6 +206,36 @@ footer {
 .redes a :hover{
     transform: scale(1.1);
 }
+.presupuestoart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    border-width: .1875rem;
+    border-color: #191716;
+    border-style: solid;
+    border-radius: .3125rem;
+}
+.button{
+    background-color: #191716;
+    border-radius: 0.3125rem;
+    color: #d9d7d4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: montserrat;
+    padding: 0.625rem;
+}
+.button:hover{
+    background-color: #d9d7d4;
+    transform: scale(1.01);
+    color: #191716;
+}
+.presupuestosec{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 @media (max-width: 48rem) {
     .grid-item {
     grid-template-columns: 1fr;
@@ -226,6 +256,9 @@ footer {
         gap: 1.25rem;
         align-items: center;
     }
+    .presupuestosec{
+        display: none;
+    }
 }
 @media (max-width: 64rem) {
     .grid-item {
@@ -240,5 +273,8 @@ footer {
     }
     .text p {
     font-size: 0.95rem;
+    }
+    .presupuestosec{
+        display: none;
     }
 }
