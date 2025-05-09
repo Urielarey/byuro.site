@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Uriel Alvarez Rey</h1>
 <h3 align="center">frontend development student</h3>
 
-- 🔭 I’m currently working on [BYuro](https://github.com/Urielarey/BYuro)
+- 🔭 I’m currently working on [BYuro](https://www.byurodev.site)
 
 - 💬 Ask me about **desarrollo web**
 
